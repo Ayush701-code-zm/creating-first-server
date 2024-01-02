@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ayush701-code-zm/creating-first-server/issues"
   },
-  "homepage": "https://github.com/Ayush701-code-zm/creating-first-server#readme"
+  "homepage": "https://github.com/Ayush701-code-zm/creating-first-server#readme",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
