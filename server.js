@@ -5,17 +5,17 @@ const app = express();
 // application will now use json format for data
 app.use(express.json());
 
-const port = 8081;
+const port = 8088;
 
 const toDoList = ["Complete Node Byte", "Play Cricket"];
 
-// http://localhost:8081/todos
+// http://localhost:8088/todos
 app.get("/todos", (req, res) => {
   // callback
   res.status(200).send(toDoList);
 });
 
-// http://localhost:8081/todos
+// http://localhost:8088/todos
 app.post("/todos", (req, res) => {
   // callback
   let newToDoItem = req.body.item;
